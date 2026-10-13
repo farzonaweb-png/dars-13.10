@@ -1,0 +1,97 @@
+.svetf {
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    border-radius: 20px;
+
+}
+
+.qizil {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    padding: 20px;
+
+
+
+    animation-name: qizil;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes qizil {
+    from {
+        background-color: rgb(139, 3, 3);
+    }
+
+    to {
+        background-color: red;
+
+    }
+
+}
+
+
+.sariq {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    padding: 20px;
+
+
+
+
+    animation-name: sariq;
+    animation-delay: 2.5s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes sariq {
+    from {
+        background-color: rgb(143, 143, 3);
+    }
+
+    to {
+        background-color: yellow;
+
+    }
+
+}
+
+
+.yashil {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    padding: 20px;
+
+
+
+
+    animation-name: yashil;
+    animation-delay: 4s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes yashil {
+    from {
+        background-color: green;
+    }
+
+    to {
+        background-color: rgb(118, 196, 2);
+
+    }
+
+}
